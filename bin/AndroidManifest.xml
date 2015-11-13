@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.andoridfunc">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.andoridfunc.MainActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="func.asyncTask.TestAsyncTaskActivity_">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="func.handler_and_thread.TestHandler">
+            
+        </activity>
+        <meta-data android:name="io.fabric.ApiKey" android:value="39a4048a6551b07d36e8ed9f37a777e5c11ca716"/>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
